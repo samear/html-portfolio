@@ -34,7 +34,7 @@ function timeWaster() {
   }
   return x;
 }
-//timeWaster();
+console.log(timeWaster());
 
 //document.querySelector('a').innerHTML='x=' + timeWaster();
 //document.querySelector('a').style.color='#800080';
