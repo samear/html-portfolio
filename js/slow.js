@@ -36,5 +36,5 @@ function timeWaster() {
 }
 //timeWaster();
 
-document.querySelector('a').innerHTML='x=' + timeWaster();
-document.querySelector('a').style.color='#800080';
+//document.querySelector('a').innerHTML='x=' + timeWaster();
+//document.querySelector('a').style.color='#800080';
