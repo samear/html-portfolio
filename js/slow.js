@@ -1,4 +1,4 @@
-var t = 300;
+var t = 5000;
 h1Str = "Good Bye";
 //console.log("waiting... for " + t +"ms. before changing header.")
 //document.querySelector('p').innerHTML="running index.js";
@@ -25,7 +25,7 @@ h1Str = "Good Bye";
 //const wait = () => new Promise((res) => setTimeout(() => res(), 0));
 function timeWaster() {
   let x = 0n;
-  for(i=0; i<90000; i++)  {
+  for(i=0; i<9000; i++)  {
     console.log("inside for loop");
     x++;
     /* if (x % 10000000n === 0n) {
@@ -34,5 +34,7 @@ function timeWaster() {
   }
   return x;
 }
-alert(timeWaster());
+//timeWaster();
+
+document.querySelector('a').innerHTML='x=' + timeWaster();
 document.querySelector('a').style.color='#800080';
