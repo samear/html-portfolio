@@ -25,7 +25,7 @@ h1Str = "Good Bye";
 //const wait = () => new Promise((res) => setTimeout(() => res(), 0));
 function timeWaster() {
   let x = 0n;
-  for(i=0; i<100000; i++)  {
+  for(i=0; i<90000; i++)  {
     console.log("inside for loop");
     x++;
     /* if (x % 10000000n === 0n) {
